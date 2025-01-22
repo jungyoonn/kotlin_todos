@@ -8,4 +8,5 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="cookie">#E4CBB3</color>
+    <color name="cookie_main">#d1b098</color>
 </resources>
