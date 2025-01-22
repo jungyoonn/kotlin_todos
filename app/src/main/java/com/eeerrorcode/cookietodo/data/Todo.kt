@@ -8,5 +8,5 @@ data class Todo (
     @PrimaryKey(autoGenerate = true)
     var num:Int = 0,
     var title: String ,
-    var completed: Boolean
+    var completed: Boolean = false
 )
