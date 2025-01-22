@@ -59,4 +59,8 @@ dependencies {
 
     implementation("androidx.room:room-runtime:2.6.1") // Room 런타임 라이브러리
     kapt("androidx.room:room-compiler:2.6.1") // Annotation Processor
+
+    // https://mvnrepository.com/artifact/androidx.room/room-ktx
+    implementation("androidx.room:room-ktx:2.6.1")
+
 }
