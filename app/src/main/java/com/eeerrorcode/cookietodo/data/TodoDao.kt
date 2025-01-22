@@ -14,7 +14,7 @@ interface TodoDao {
     fun insert(todo: Todo)
 
     @Query("select * from todo")
-    fun getAllTodos()
+    fun getAllTodos():List<Todo>
 
     @Update
     fun update(todo: Todo)
