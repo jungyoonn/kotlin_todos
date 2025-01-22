@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">CookieTodo</string>
+    <string name="app_name">쿠키 스케줄러</string>
     <string name="add_todo">Add Todo</string>
     <string name="writeTodo">할 일을 작성하세요</string>
     <string name="submit">작성</string>
