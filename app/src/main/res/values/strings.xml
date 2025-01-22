@@ -3,6 +3,6 @@
     <string name="add_todo">Add Todo</string>
     <string name="writeTodo">할 일을 작성하세요</string>
     <string name="submit">작성</string>
-    <string name="introTitle">스케줄러</string>
+    <string name="introTitle">쿠키 조아</string>
     <string name="cookie">cookie</string>
 </resources>
