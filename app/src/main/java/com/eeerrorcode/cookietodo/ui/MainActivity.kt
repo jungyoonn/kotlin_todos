@@ -39,7 +39,12 @@ class MainActivity : AppCompatActivity() {
             startActivityForResult(intent, ADD_TODO_REQUEST_CODE)
         }
 
-//        loadTodos()
+        findViewById<FloatingActionButton>(R.id.fab_web).setOnClickListener {
+            val intent = Intent(this, WebActivity::class.java)
+            startActivity(intent)
+        }
+
+        loadTodos()
     }
 
     private fun loadTodos() {
