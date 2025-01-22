@@ -30,6 +30,7 @@ class AddTodoActivity: AppCompatActivity() {
                     todoDatabase.todoDao().insert(newTodo)
 
                     setResult(RESULT_OK)
+                    overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out)
                     finish()
                 }
             } else {
